@@ -1,4 +1,4 @@
-var configure = require('react-figma-webpack-config');
+var configure = require('@scotthaney323/react-figma-webpack-config');
 
 module.exports = configure({
     resolve: {
