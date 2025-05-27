@@ -7,5 +7,10 @@ module.exports = configure({
             'react-figma$': '../../../src',
             'react-figma/rpc$': '../../../src/rpc'
         }
-    }
+    },
+    plugins:[
+        new webpack.DefinePlugin({
+            'process.env': JSON.stringify(process.env)
+        })
+      ]
 });

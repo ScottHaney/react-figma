@@ -7,11 +7,11 @@ import { setTextChildren } from './hooks/useTextChildren';
 import { api } from './rpc';
 import { serializeProps } from './serializers';
 
-const isReactFigmaExperimental = true;// process.env.REACT_FIGMA_EXPERIMENTAL;
+//const isReactFigmaExperimental = process.env.REACT_FIGMA_EXPERIMENTAL;
 
-if (isReactFigmaExperimental) {
-    console.log('REACT_FIGMA_EXPERIMENTAL');
-}
+//if (isReactFigmaExperimental) {
+//    console.log('REACT_FIGMA_EXPERIMENTAL');
+//}
 
 const setTextInstance = (parentNode, childNode) => {
     childNode.parent = parentNode;
